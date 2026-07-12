@@ -1,79 +1,30 @@
-	/*
-		? $./network --help
-		Here’s a curated list of free, no-authentication-required APIs specifically useful for developers, covering code execution, utilities, testing, and more
+# Network CLI Application
 
-		Usage:
-		  network [flags]
-		  network [command]
+A lightweight command-line interface tool that provides access to various free APIs for IP information, jokes, and more - all without authentication requirements.
 
-		Available Commands:
-		  completion  Generate the autocompletion script for the specified shell
-		  help        Help about any command
-		  ip          Information of IP
-		  joke        Random joke
+---
+## Getting Started
 
-		Flags:
-			  --about   Developer info
-		  -h, --help    help for network
+1. First install `homebrew` (if you haven't already)
+2. Install `network`
+``` bash
+brew install mithun1st/mh/network
+```
+3. Verify Installation
+``` bash
+network --version
+```
 
-		Use "network [command] --help" for more information about a command.
-	*/
+## Features
 
-	/*
-		? $./network ip -h
-		IP address and location details
+- **IP Information**: Get detailed information about any IP address
+- **Random Jokes**: Fetch random jokes from a free API  
+- **No Authentication Required**: All APIs are freely accessible
 
-		Usage:
-		  network ip [flags]
+![network1](https://raw.githubusercontent.com/mithun1st/network/master/screenshots/network1.png)
 
-		Flags:
-		  -a, --address string   More info about IP
-		  -h, --help             help for ip
+![network2](https://raw.githubusercontent.com/mithun1st/network/master/screenshots/network2.png)
 
-
-		? $./network ip
-		ip : 103.199.152.60
-
-
-		? $./network ip -a 103.199.152.60
-		region : C
-		regionName : Dhaka Division
-		city : Kāfrul
-		zip : 1207
-		query : 103.199.152.60
-		status : success
-		countryCode : BD
-		lat : 23.7882
-		lon : 90.3736
-		timezone : Asia/Dhaka
-		isp : Md. Nasir Uddin T/A SPEED TECH ONLINE
-		org :
-		as : AS134749 SPEED TECH ONLINE
-		country : Bangladesh
-	*/
-
-	/*
-		? $./network joke -h
-		Random joke free
-
-		Usage:
-		  network joke [flags]
-
-		Flags:
-		  -h, --help   help for joke
-
-
-		? $./network joke
-		punchline : It needed a root canal.
-		id : 335
-		type : general
-		setup : Why did the tree go to the dentist?
-	*/
-
-	/*
-		? $./network --about
-		Develop By:
-		Mahadi Hassan MITHUN
-		mithun.2121@yahoo.com
-		https://github.com/mithun1st
-	*/
+## Additional information
+`network` developed by [Mahadi Hassan](https://www.linkedin.com/in/mithun1st/)
+> mithun.2121@yahoo.com | [LinkedIn](https://www.linkedin.com/in/mithun1st/) | [GitHub](https://www.github.com/mithun1st/) | [Website](https://mithun1st.blogspot.com/)
